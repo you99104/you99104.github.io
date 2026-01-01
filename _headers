@@ -1,5 +1,6 @@
-# 对所有 .json 文件添加跨域头
-/*.json
+# 对所有文件生效（包括 app-ads.txt）
+/*
   Access-Control-Allow-Origin: *
-  Access-Control-Allow-Methods: GET, OPTIONS
-  Access-Control-Allow-Headers: Content-Type
+  Access-Control-Allow-Methods: GET, POST, OPTIONS
+  Access-Control-Allow-Headers: Content-Type, Origin, X-Requested-With
+  Access-Control-Max-Age: 86400
