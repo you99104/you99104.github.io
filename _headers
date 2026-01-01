@@ -1,0 +1,5 @@
+# 对所有 .json 文件添加跨域头
+/*.json
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Access-Control-Allow-Headers: Content-Type
